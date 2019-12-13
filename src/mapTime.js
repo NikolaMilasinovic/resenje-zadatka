@@ -1,5 +1,5 @@
 export const mapTime = (timestamp) => {
-  console.log(timestamp, "from mapTime")
+  // console.log(timestamp, "from mapTime")
   const seconds = Math.floor((new Date() - timestamp * 1000) / 1000);
   let interval = Math.floor(seconds / 31536000);
   if (interval > 1) {
